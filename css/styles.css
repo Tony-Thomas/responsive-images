@@ -67,7 +67,7 @@ img{
 	padding: .5rem 0 0;
 	height: 10rem;
 	background-size: cover;
-	background-image: url("../img/masthead-xxxsmall.jpg");
+	background-image: url("../img/masthead.svg");
 	background-position: 50% 50%;
 	position: relative;
 }
@@ -180,10 +180,10 @@ footer{
 
 /*** Begin Media Queries ***/
 
-@media screen and (min-width: 30em){ /* 480px/16px */
+/*@media screen and (min-width: 30em){ /* 480px/16px */
 	#masthead{
 		height: 12rem;
-     	background-image: url("../img/masthead-xxsmall.jpg");
+     	/*background-image: url("../img/masthead-xxsmall.jpg");*/
 	}
 
 	#logo{
@@ -216,7 +216,7 @@ footer{
 	#masthead{
 		height: 14rem;
 		padding: 1rem 0 0;
-		background-image: url("../img/masthead-xsmall.jpg");
+		/*background-image: url("../img/masthead-xsmall.jpg");*/
 	}
 
 	#logo{
@@ -232,7 +232,7 @@ footer{
 @media screen and (min-width: 56em){ /* 896px/16px */
 	#masthead{
 		height: 18rem;
-		background-image: url("../img/masthead-small.jpg");
+		/*background-image: url("../img/masthead-small.jpg");*/
 	}
 
 	#logo{
@@ -247,7 +247,7 @@ footer{
 @media screen and (min-width: 77em){ /* 1232px/16px */
 	#masthead{
 		height: 20rem;
-		background-image: url("../img/masthead-medium.jpg");
+		/*background-image: url("../img/masthead-medium.jpg");*/
 	}
 
 	#logo{
@@ -262,7 +262,7 @@ footer{
 @media screen and (min-width: 105em){ /* 1680px/16px */
 	#masthead{
 		height: 22rem;
-		background-image: url("../img/masthead-large.jpg");
+		/*background-image: url("../img/masthead-large.jpg");*/
 	}
 
 	#tagline{
@@ -273,7 +273,7 @@ footer{
 @media screen and (min-width: 140em){ /* 2240px/16px */
 	#masthead{
 		height: 24rem;
-		background-image: url("../img/masthead-xlarge.jpg");
+		/*background-image: url("../img/masthead-xlarge.jpg");*/
 	}
 
 	#tagline{
@@ -285,42 +285,42 @@ footer{
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){ /* High DPI Default */
 	#masthead{
-		background-image: url("../img/masthead-xxsmall.jpg");
+		/*background-image: url("../img/masthead-xxsmall.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 30em){ /* High DPI 480px/16px */
 	#masthead{
-		background-image: url("../img/masthead-xxsmall.jpg");
+		/*background-image: url("../img/masthead-xxsmall.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 44em){ /* High DPI 704px/16px */
 	#masthead{
-		background-image: url("../img/masthead-xsmall.jpg");
+		/*background-image: url("../img/masthead-xsmall.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 56em){ /* High DPI 896px/16px */
 	#masthead{
-		background-image: url("../img/masthead-small.jpg");
+		/*background-image: url("../img/masthead-small.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 77em){ /* High DPI 1232px/16px */
 	#masthead{
-		background-image: url("../img/masthead-medium.jpg");
+		/*background-image: url("../img/masthead-medium.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 105em){ /* High DPI 1680px/16px */
 	#masthead{
-		background-image: url("../img/masthead-large.jpg");
+		/*background-image: url("../img/masthead-large.jpg");*/
 	}
 }
 
 @media screen (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) and (min-width: 140em){ /* High DPI 2240px/16px */
 	#masthead{
-		background-image: url("../img/masthead-xlarge.jpg");
+		/*background-image: url("../img/masthead-xlarge.jpg");*/
 	}
 }
